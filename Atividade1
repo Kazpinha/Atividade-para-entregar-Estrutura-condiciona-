@@ -1,0 +1,15 @@
+package Atividades;
+import java.util.Scanner;
+public class Atividade1 {
+public static void main (String[] args) {
+int num1;int num2;
+Scanner sc =new Scanner(System.in);
+System.out.println("Digite o primeiro número");
+num1=sc.nextInt();
+System.out.println("digite o segundo número");
+num2=sc.nextInt();
+if(num1>num2) {System.out.println("o primeiro numero é o maior: "+num1);}
+else if (num2>num1) {System.out.println("o segundo número e o maior: "+num2);}
+else if(num1==num2) {System.out.println("os dois números são iguais.");}
+
+sc.close();}}
